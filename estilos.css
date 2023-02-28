@@ -1,0 +1,253 @@
+/*
+Gris #A0A0A0
+Negro 201E1E
+Celeste 00AFEF
+Verde oscuro 072E38
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* GENERALES */
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.iconos {
+    width: 18px;
+    margin: 5px;
+}
+
+#telefono {
+    color: #A0A0A0;
+    font-size: 14px;
+}
+
+/* HEADER */
+nav {
+    padding: 5px 15px;
+}
+
+#ul-header a {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #201E1E;
+    margin: 0px 5px;
+}
+
+.active {
+    border-bottom: 3px solid #00AFEF !important;
+}
+.active:hover{
+    border: none !important;
+}
+#ul-header li:hover {
+    border-bottom: 3px solid #00AFEF;
+}
+
+#burger-btn {
+    border: 1px solid #00AFEF !important;
+    padding: 5px !important;
+    width: 50px;
+}
+
+#burger-btn:hover{
+    border: 2px solid #00AFEF !important;
+}
+
+/*PRINCIPAL*/
+#principal {
+    height: 100vh;
+    width: 100%;
+    background: url(img/casa-principal.jpg) no-repeat center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgba(28, 44, 48, 0.9);
+    color: white;
+}
+
+#texto-banner {
+    padding: 300px 0px;
+}
+
+#numeros-aprox {
+    background-color: #201E1E;
+    padding: 30px;
+    border-radius: 50px 0px;
+}
+
+/*NOSOTROS*/
+
+#nosotros {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+h3 {
+    font-size: 16px !important;
+    color: #00AFEF;
+    text-transform: uppercase;
+}
+
+#nosotros img {
+    border-radius: 0px 100px;
+    width: 90%;
+
+}
+
+/*SERVICIOS*/
+
+#img-construccion {
+    width: 35% !important;
+}
+
+h5 {
+    color: #00AFEF;
+}
+
+/*
+.div-servicios {
+    border-left: 2px solid #00AFEF;
+    padding-left: 25px !important;
+
+}
+
+/*OBRAS*/
+#obras {
+    margin-top: 100px !important
+}
+
+#img-1,
+#img-2,
+#img-3,
+#img-4 {
+    height: 60vh;
+    background: url(img/obra2.jpg) no-repeat center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgba(28, 44, 48, 0.9);
+}
+
+#img-1:hover,
+#img-2:hover,
+#img-3:hover,
+#img-4:hover {
+    background-blend-mode: soft-light;
+    background-color: rgba(1, 21, 27, 0.9);
+}
+
+.ver-galeria {
+    line-height: 25rem;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    color: #A0A0A0;
+    display: none;
+}
+
+.div-img:hover .ver-galeria {
+    display: inline-block;
+}
+
+/*XQ ELEGIRNOS*/
+#xq-elegirnos {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+#img-obrero {
+    border-radius: 50px 0px;
+    width: 75%;
+}
+
+.p-14 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/*CONTACTO*/
+#contacto {
+    background-color: #201E1E;
+    color: white;
+    padding: 90px 30px !important;
+}
+
+input,
+textarea,
+button {
+    margin-top: 15px !important;
+}
+
+#contacto button {
+    width: 100%;
+    background-color: #00AFEF;
+    color: white;
+    border: 0;
+    border-radius: 10px !important;
+    padding: 10px 0px;
+}
+
+#contacto button:hover {
+    background-color: #A0A0A0;
+    color: #201E1E;
+}
+
+/*#datos-empresa {
+    padding-left: 100px;
+}*/
+
+#datos-empresa img {
+    width: 25px;
+    display: inline-block;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #201E1E;
+    color: #A0A0A0;
+}
+
+footer a {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white !important;
+}
+
+footer a:hover {
+    color: #00AFEF !important;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+/*PÁGINA EXITO*/
+
+#exito {
+    width: 100%;
+    height: 100vh;
+    background-color: #201E1E;
+}
+
+#exito h3,
+#exito p {
+    color: #F2F2F2;
+}
+
+#exito img {
+    width: 30%;
+}
