@@ -2,9 +2,7 @@
 Gris #A0A0A0
 Negro 201E1E
 Celeste 00AFEF
-Verde oscuro 072E38
-
-*/
+Verde oscuro 072E38 */
 
 * {
     margin: 0;
@@ -50,9 +48,11 @@ nav {
 .active {
     border-bottom: 3px solid #00AFEF !important;
 }
-.active:hover{
+
+.active:hover {
     border: none !important;
 }
+
 #ul-header li:hover {
     border-bottom: 3px solid #00AFEF;
 }
@@ -63,7 +63,7 @@ nav {
     width: 50px;
 }
 
-#burger-btn:hover{
+#burger-btn:hover {
     border: 2px solid #00AFEF !important;
 }
 
@@ -104,7 +104,6 @@ h3 {
 #nosotros img {
     border-radius: 0px 100px;
     width: 90%;
-
 }
 
 /*SERVICIOS*/
@@ -115,13 +114,6 @@ h3 {
 
 h5 {
     color: #00AFEF;
-}
-
-/*
-.div-servicios {
-    border-left: 2px solid #00AFEF;
-    padding-left: 25px !important;
-
 }
 
 /*OBRAS*/
@@ -177,7 +169,6 @@ h5 {
     font-weight: 600;
 }
 
-
 /*CONTACTO*/
 #contacto {
     background-color: #201E1E;
@@ -204,10 +195,6 @@ button {
     background-color: #A0A0A0;
     color: #201E1E;
 }
-
-/*#datos-empresa {
-    padding-left: 100px;
-}*/
 
 #datos-empresa img {
     width: 25px;
