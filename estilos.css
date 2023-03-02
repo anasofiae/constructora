@@ -109,7 +109,7 @@ h3 {
 /*SERVICIOS*/
 
 #img-construccion {
-    width: 35% !important;
+    width: 90px !important;
 }
 
 h5 {
@@ -126,10 +126,29 @@ h5 {
 #img-3,
 #img-4 {
     height: 60vh;
+    background-color: rgba(28, 44, 48, 0.9) !important;
+}
+#img-1{
+    background: url(img/obra7.jpg) no-repeat center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+#img-2{
+    background: url(img/obra3.jpg) no-repeat center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+#img-3{
     background: url(img/obra2.jpg) no-repeat center;
     background-size: cover;
     background-blend-mode: soft-light;
-    background-color: rgba(28, 44, 48, 0.9);
+}
+#img-4{
+    background: url(img/obra8.jpg) no-repeat center;
+    background-size: cover;
+    background-blend-mode: soft-light;
 }
 
 #img-1:hover,
@@ -137,7 +156,7 @@ h5 {
 #img-3:hover,
 #img-4:hover {
     background-blend-mode: soft-light;
-    background-color: rgba(1, 21, 27, 0.9);
+    background-color: rgba(1, 21, 27, 0.9) !important;
 }
 
 .ver-galeria {
@@ -161,11 +180,11 @@ h5 {
 
 #img-obrero {
     border-radius: 50px 0px;
-    width: 75%;
+    width: 90%;
 }
 
-.p-14 {
-    font-size: 14px;
+.p-12 {
+    font-size: 12px;
     font-weight: 600;
 }
 
