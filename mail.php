@@ -25,9 +25,9 @@ HTML;
 $headers = "MIME-Version: 1.0 \r\n";
 $headers.= "Content-type: text/html; charset=utf-8 \r\n";
 $headers.= "From: $nombre <$email> \r\n";
-$headers.= "To: Sitio web <info@paglialungaehijos.com.uy> \r\n";
+$headers.= "To: Sitio web <construccionespaglialunga@gmail.com> \r\n";
 
-$para = 'info@paglialungaehijos.com.uy';
+$para = 'construccionespaglialunga@gmail.com';
 
 $rta = mail($para, "Mensaje web: $asunto", $body, $headers );
 

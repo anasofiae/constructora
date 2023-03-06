@@ -91,8 +91,8 @@ nav {
 /*NOSOTROS*/
 
 #nosotros {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 120px;
+    padding-bottom: 40px;
 }
 
 h3 {
@@ -103,7 +103,7 @@ h3 {
 
 #nosotros img {
     border-radius: 0px 100px;
-    width: 90%;
+    width: 100%;
 }
 
 /*SERVICIOS*/
@@ -175,17 +175,12 @@ h5 {
 /*XQ ELEGIRNOS*/
 #xq-elegirnos {
     margin-top: 90px;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
 }
 
 #img-obrero {
     border-radius: 50px 0px;
     width: 90%;
-}
-
-.p-12 {
-    font-size: 12px;
-    font-weight: 600;
 }
 
 /*CONTACTO*/
