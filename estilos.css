@@ -253,3 +253,36 @@ footer p {
 #exito img {
     width: 30%;
 }
+
+
+/* GALERIA */
+#galeria{
+    width: 100%;
+    margin-top: 120px;
+}
+
+#galeria img{
+    width: 100%;
+    padding: 4px 0px;
+}
+
+#galeria h1{
+    display: inline;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #00AFEF;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#separador{
+    margin:auto ;
+    width: 200px;
+    border-bottom: 2px solid #00AFEF;
+}
+
+#section-datos{
+    width: 100%;
+    color: white;
+    background-color: #00AFEF;
+    padding-top: 20px;
+}
