@@ -82,17 +82,18 @@ nav {
 #texto-banner {
     padding: 300px 0px;
 }
-
+/*
 #numeros-aprox {
     background-color: #201E1E;
     padding: 30px;
     border-radius: 50px 0px;
 }
+*/
 
 /*NOSOTROS*/
 
 #nosotros {
-    padding-top: 120px;
+    padding-top: 40px;
     padding-bottom: 40px;
 }
 
