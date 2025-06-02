@@ -27,7 +27,7 @@ $headers.= "Content-type: text/html; charset=utf-8 \r\n";
 $headers.= "From: $nombre <$email> \r\n";
 $headers.= "To: Sitio web <construccionespaglialunga@gmail.com> \r\n";
 
-$para = 'construccionespaglialunga@gmail.com';
+$para = '';
 
 $rta = mail($para, "Mensaje web: $asunto", $body, $headers );
 
